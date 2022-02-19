@@ -10,7 +10,7 @@ const Projects = () => {
             description:
               "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
             image: Fazoolin,
-            link: "www.#.com",
+            link: "https://github.com/Kyle-Holmstrom/Basta_Fazoolin",
           }, 
           {
             title: "Tea Cozy",
@@ -18,7 +18,7 @@ const Projects = () => {
             description:
               "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
             image: Tea,
-            link: "www.#.com",
+            link: "https://github.com/Kyle-Holmstrom/TheTeaCozy",
           },
     ]
     
