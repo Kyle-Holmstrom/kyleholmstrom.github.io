@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.eaa01ffd.css",
+    "main.js": "/Portfolio/static/js/main.094410bc.js",
+    "static/media/TeaCozy.jpg": "/Portfolio/static/media/TeaCozy.b59f1b1157174015a1e5.jpg",
+    "static/media/BastaFazoolin.jpg": "/Portfolio/static/media/BastaFazoolin.b8e3c3fc307e97e017f7.jpg",
+    "static/media/me.jpg": "/Portfolio/static/media/me.1e4a731019b123e387ef.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.eaa01ffd.css.map": "/Portfolio/static/css/main.eaa01ffd.css.map",
+    "main.094410bc.js.map": "/Portfolio/static/js/main.094410bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eaa01ffd.css",
+    "static/js/main.094410bc.js"
+  ]
+}
