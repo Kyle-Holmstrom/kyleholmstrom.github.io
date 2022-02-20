@@ -1,6 +1,7 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
-    
     return (
         <footer className="pl-3 pt-14 pb-3 text-sm text-center font-serif bg-black">
             {/* <div className="flex justify-center">
@@ -18,11 +19,26 @@ const Footer = () => {
                     </button>
                 </form>
             </div> */}
-            
-            <p className="my-3 text-gray-400 text-l">
-            © <span>Kyle Holmstrom</span>, 2022 
-            </p>
-
+            <div className="pt-7 pb-12 flex justify-center">
+                <ul className="flex justify-inline">
+                    <li className="mx-2">
+                        <a href="https://github.com/Kyle-Holmstrom?tab=repositories" rel="noreferrer" target="_blank" >
+                            {/* <img 
+                            className="w-20 bg-white"
+                            src={GitLogo} alt="GitHub" /> */}
+                            <FontAwesomeIcon className="h-12 text-white" icon={faGithub} />
+                        </a>
+                    </li>
+                    <li className="mx-2">
+                        <a href="https://www.linkedin.com/in/kyle-holmstrom-7a2665127/" rel="noreferrer" target="_blank">
+                            <FontAwesomeIcon className="h-12 text-white" icon={faLinkedinIn} />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <section className="my-3 text-gray-400 text-l font-serif">
+                © Kyle Holmstrom, 2022 
+            </section>
         </footer>
     )
 }
