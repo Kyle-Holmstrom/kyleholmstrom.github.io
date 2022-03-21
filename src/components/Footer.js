@@ -23,9 +23,6 @@ const Footer = () => {
                 <ul className="flex justify-inline">
                     <li className="mx-2">
                         <a href="https://github.com/Kyle-Holmstrom?tab=repositories" rel="noreferrer" target="_blank" >
-                            {/* <img 
-                            className="w-20 bg-white"
-                            src={GitLogo} alt="GitHub" /> */}
                             <FontAwesomeIcon className="h-12 text-white" icon={faGithub} />
                         </a>
                     </li>
@@ -37,7 +34,7 @@ const Footer = () => {
                 </ul>
             </div>
             <section className="my-3 text-gray-400 text-l font-serif">
-                © Kyle Holmstrom, 2022 
+                © 2022 
             </section>
         </footer>
     )
