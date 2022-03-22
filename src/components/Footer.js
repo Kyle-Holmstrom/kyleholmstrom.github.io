@@ -3,7 +3,7 @@ import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
     return (
-        <footer className="pl-3 pt-14 pb-3 text-sm text-center font-serif bg-black">
+        <footer className="pl-3 pt-14 pb-3 text-sm text-center font-serif bg-gray-900">
             {/* <div className="flex justify-center">
                 <form id="contact" className="box-border h-96 w-96 p-4 border-2 border-emerald-600 text-slate-100 bg-gray-900">
                     <label for="name">Name:</label> <br/>
