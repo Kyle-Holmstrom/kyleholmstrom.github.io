@@ -2,10 +2,10 @@ import MeUniform from '../images/MeUniform.jpg';
 
 const Hero = () => { 
     return (
-        <div className="bg-black pt-24">
+        <div className="bg-black py-44">
             <span>
                 <img src={MeUniform} alt="pic" 
-                className="z-1 w-64 rounded-full mr-auto ml-auto"
+                className="z-1 h-96 rounded-full mr-auto ml-auto"
                 />
             </span>
             <h1 className="text-slate-100 font-mono flex justify-center text-6xl leading-loose">Hi, I'm Kyle</h1> 
