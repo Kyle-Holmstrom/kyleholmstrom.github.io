@@ -94,7 +94,7 @@ const Projects = () => {
         </div>
         <h2 className="font-serif text-gray-300 leading-relaxed text-lg py-12 flex justify-center">Take a look at all of my projects on 
             <a href="https://github.com/Kyle-Holmstrom?tab=repositories" rel="noreferrer" target="_blank"
-            className="pl-1 text-xl font-serif text-emerald-400">GitHub</a>!</h2>
+            className="animate-pulse pl-1 text-xl font-serif text-emerald-400">GitHub</a>!</h2>
     </section>
     )
 }

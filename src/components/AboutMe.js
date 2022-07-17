@@ -8,7 +8,7 @@ const AboutMe = () => {
                     I have studied software development in college where I have received my bachelors degree in Computer Science.
                     <br/> Aside from learning software development in college I have been studying and learning on my own.
                     <br/>And through this hard work and dedication I have been awarded the deans list on two separate occasions.
-                    <br/>I am currently pursuing my career path as a software developer! <strong className="text-emerald-400">Hire Me! :)</strong>
+                    <br/>I am currently pursuing my career path as a software developer! <strong className="animate-pulse text-emerald-400">Hire Me! :)</strong>
                 </p>
             </div>
         </div>
