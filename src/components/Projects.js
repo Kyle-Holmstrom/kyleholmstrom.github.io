@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRobot, faUtensils, faBookOpen, faMugHot, faMask, faDice } from "@fortawesome/free-solid-svg-icons";
 
-const Projects = () => {
+const Projects = (props) => {
     const project = [
         {
           title: "Angular Tour of Heroes",
@@ -53,16 +53,35 @@ const Projects = () => {
           },
     ]
     
-    return (
+    if (props.showProject === false) {
+      return (
         <section id="project" className="text-gray-400 bg-black">
             <div className="container px-5 py-10 mx-auto text-center lg:px-40">
                 <div className="flex flex-col w-full mb-20">
                     <span className="mx-auto inline-block w-10 mb-4" />
                     <h1 className="text-slate-100 font-mono flex justify-center text-4xl leading-loose">
-                    Apps I've Built
+                    Projects
                     </h1>
-                    <p className="mx-4 text-gray-100 font-serif flex justify-center text-xl leading-relaxed pb-2">
-                    I have created applications that range from a CLI's to front end web sites and 
+                    <p className="indent-9 text-justify break-words mx-4 text-gray-100 font-serif flex justify-center text-xl leading-relaxed pb-2">
+                    I have created applications that range from a CLI's to frontend websites and 
+                    I have also created databases that connect to the frontend. My projects can be 
+                    found on GitHub.
+                    </p>
+                  </div>
+            </div>
+          </section>
+      )
+    } else if (props.showProject === true) {
+      return (
+        <section id="project" className="text-gray-400 bg-black">
+            <div className="container px-5 py-10 mx-auto text-center lg:px-40">
+                <div className="flex flex-col w-full mb-20">
+                    <span className="mx-auto inline-block w-10 mb-4" />
+                    <h1 className="text-slate-100 font-mono flex justify-center text-4xl leading-loose">
+                    Projects
+                    </h1>
+                    <p className="indent-9 text-justify break-words mx-4 text-gray-100 font-serif flex justify-center text-xl leading-relaxed pb-2">
+                    I have created applications that range from a CLI's to frontend websites and 
                     I have also created databases that connect to the frontend. Here are a
                     few examples you can look at it!. The rest of my projects can be found on GitHub.
                     </p>
@@ -85,7 +104,7 @@ const Projects = () => {
                         <h1 className="title-font text-lg font-medium font-mono text-slate-100 mb-3">
                         {myProject.title}
                         </h1>
-                        <p className="text-gray-100 font-serif leading-relaxed">{myProject.description}</p>
+                        <p className="break-words text-gray-100 font-serif leading-relaxed">{myProject.description}</p>
                     </div>
                     </div>
                 </a>
@@ -96,6 +115,7 @@ const Projects = () => {
             <a href="https://github.com/Kyle-Holmstrom?tab=repositories" rel="noreferrer" target="_blank"
             className="animate-pulse pl-1 text-xl font-serif text-emerald-400">GitHub</a>!</h2>
     </section>
-    )
+      )
+    }
 }
 export default Projects;
