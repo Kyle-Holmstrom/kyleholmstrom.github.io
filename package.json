@@ -1,6 +1,6 @@
 {
   "name": "web-portfolio",
-  "homepage": "https://kyle-holmstrom.github.io/Portfolio/",
+  "homepage": "https://kyle-holmstrom.github.io/portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
