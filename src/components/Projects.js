@@ -74,7 +74,7 @@ const Projects = (props) => {
     } else if (props.showProject === true) {
       return (
         <section id="project" className="text-gray-400 bg-black">
-            <div className="container px-5 py-10 mx-auto text-center lg:px-40">
+            <div className="container px-5 py-10 mx-auto lg:px-40">
                 <div className="flex flex-col w-full mb-20">
                     <span className="mx-auto inline-block w-10 mb-4" />
                     <h1 className="text-slate-100 font-mono flex justify-center text-4xl leading-loose">
