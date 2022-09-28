@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@media only screen and (min-width: 1080px) {
+  .AboutMe {
+    padding: 0 300px;
+    padding-bottom: 10rem;
+    padding-top: 2rem;
+  }
+  
+}
+
 /* width */
 ::-webkit-scrollbar {
     width: 0.4rem;

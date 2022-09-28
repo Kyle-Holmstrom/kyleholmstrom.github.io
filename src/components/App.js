@@ -11,7 +11,7 @@ function App() {
         <AnimatedIcon showIcon={false} />
         <Hero />
         <AboutMe />
-        <Projects showProject={false} />
+        <Projects showProject={true} />
         <Footer />
     </>
     );
