@@ -5,9 +5,9 @@ const Projects = (props) => {
     const project = [
         {
           title: "Angular Tour of Heroes",
-          subtitle: "Angular Integrated with Express and Mongo",
+          subtitle: "Angular Integrated with Express and MongoDB",
           description:
-            "Angular project integrated with express and mongodb",
+            "Angular project integrated with Express and MongoDB",
           image: faMask,
           link: "https://github.com/Kyle-Holmstrom/AngularTourOfHeroes",
         },
@@ -56,13 +56,13 @@ const Projects = (props) => {
     if (props.showProject === false) {
       return (
         <section id="project" className="text-gray-400 bg-black">
-            <div className="container px-5 py-10 mx-auto text-center lg:px-40">
+            <div className="container px-5 py-10 mx-auto lg:px-40">
                 <div className="flex flex-col w-full mb-20">
                     <span className="mx-auto inline-block w-10 mb-4" />
                     <h1 className="text-slate-100 font-mono flex justify-center text-4xl leading-loose">
                     Projects
                     </h1>
-                    <p className="indent-9 break-words mx-4 text-gray-100 font-serif text-xl leading-relaxed pb-2">
+                    <p className="indent-9 break-words mx-4 text-gray-100 font-serif flex justify-center text-xl leading-relaxed pb-2">
                     I have created applications that range from a CLI's to frontend websites and 
                     I have also created databases that connect to the frontend. My projects can be 
                     found on GitHub.
@@ -80,7 +80,7 @@ const Projects = (props) => {
                     <h1 className="text-slate-100 font-mono flex justify-center text-4xl leading-loose">
                     Projects
                     </h1>
-                    <p className="indent-9 text-justify break-words mx-4 text-gray-100 font-serif flex justify-center text-xl leading-relaxed pb-2">
+                    <p className="indent-9 break-words mx-4 text-gray-100 font-serif flex justify-center text-xl leading-relaxed pb-2">
                     I have created applications that range from a CLI's to frontend websites and 
                     I have also created databases that connect to the frontend. Here are a
                     few examples you can look at it!. The rest of my projects can be found on GitHub.
