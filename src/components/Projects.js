@@ -62,7 +62,7 @@ const Projects = (props) => {
                     <h1 className="text-slate-100 font-mono flex justify-center text-4xl leading-loose">
                     Projects
                     </h1>
-                    <p className="indent-9 text-justify break-words mx-4 text-gray-100 font-serif flex justify-center text-xl leading-relaxed pb-2">
+                    <p className="indent-9 break-words mx-4 text-gray-100 font-serif text-xl leading-relaxed pb-2">
                     I have created applications that range from a CLI's to frontend websites and 
                     I have also created databases that connect to the frontend. My projects can be 
                     found on GitHub.
