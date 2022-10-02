@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedinIn, faFacebook } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
     return (
@@ -29,6 +29,11 @@ const Footer = () => {
                     <li className="mx-2">
                         <a href="https://www.linkedin.com/in/kyle-holmstrom-7a2665127/" rel="noreferrer" target="_blank">
                             <FontAwesomeIcon className="h-12 text-white" icon={faLinkedinIn} />
+                        </a>
+                    </li>
+                    <li className="mx-2">
+                        <a href="https://www.facebook.com/kyle.holmstrom.7" rel="noreferrer" target="_blank">
+                            <FontAwesomeIcon className="h-12 text-white" icon={faFacebook} />
                         </a>
                     </li>
                 </ul>
