@@ -1,8 +1,16 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faRobot, faUtensils, faBookOpen, faMugHot, faMask, faDice } from "@fortawesome/free-solid-svg-icons";
+import { faRobot, faUtensils, faBookOpen, faMugHot, faMask, faDice, faKeyboard } from "@fortawesome/free-solid-svg-icons";
 
 const Projects = (props) => {
     const project = [
+        {
+          title: "Blog",
+          subtitle: "MERN Stack",
+          description:
+            "A blog website that shows a list of registered users, blog post, comments, and allows for a user to sign in.",
+          image: faKeyboard,
+          link: "https://github.com/Kyle-Holmstrom/blog",
+        },
         {
           title: "Angular Tour of Heroes",
           subtitle: "Angular Integrated with Express and MongoDB",
