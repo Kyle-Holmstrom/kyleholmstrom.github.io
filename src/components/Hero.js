@@ -1,10 +1,11 @@
-import MeUniform from '../images/MeUniform.jpg';
+//import MeUniform from '../images/MeUniform.jpg';
+import Portrait from '../images/Me.jpg';
 
 const Hero = () => { 
     return (
         <div className="bg-black py-36">
             <span>
-                <img src={MeUniform} alt="pic" 
+                <img src={Portrait} alt="pic" 
                 className="z-1 h-96 rounded-full mr-auto ml-auto"
                 />
             </span>
