@@ -15,7 +15,11 @@ const Hero = () => {
                 <h2>
                     A <span className="text-emerald-400 font-bold">Software Developer</span> from Long Island, NY.
                 </h2>
-            </div>      
+            </div>
+            <div className="pl-11 text-gray-100 font-serif flex justify-center text-3xl leading-relaxed">
+                <mark>This site was created with React.js 😎</mark>
+            </div>
+            <br/>          
         </div>
     )
 }
