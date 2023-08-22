@@ -1,12 +1,12 @@
 //import MeUniform from '../images/MeUniform.jpg';
-import Portrait from '../images/Me.jpg';
+import Portrait from '../images/softwareDeveloper.jpg';
 
 const Hero = () => { 
     return (
         <div className="bg-black py-36">
             <span>
                 <img src={Portrait} alt="pic" 
-                className="z-1 h-96 rounded-full mr-auto ml-auto"
+                className="z-1 h-96 rounded mr-auto ml-auto"
                 />
             </span>
             <h1 className="text-slate-100 font-mono flex justify-center text-6xl leading-loose">
